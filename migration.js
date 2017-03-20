@@ -4,8 +4,6 @@
 // @version      1.0
 // @description  try to take over the world!
 // @author       WindWalk
-// @match        http://*/*
-// @grant        none
 // ==/UserScript==
 
 //determen URL
