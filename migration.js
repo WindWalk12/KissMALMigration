@@ -19,10 +19,9 @@ if (url1.test(url) && url2.test(url) ) {
 	document.getElementById('adsIfrme11').remove();
 	document.getElementById('divFloatRight').remove();
 
-	document.body.onload = addiframe;
-
-	function addiframe () {
-	$('#containerRoot #divFloatLeft').after('<div id="mal-iframe" style="position: absolute; top: 750px; right: 12.5px;"> </div)');
-	%('#mal-iframe').append('')
-	}
+	$('#container .bigBarContainer #centerDivVideo').after('<div id="mal-iframe" style="position: inline-block; top: 750px; right: 12.5px;"> </div)');
+		console.log("Div works!");
+	
+	$('#mal-iframe').append('<iframe src="https://myanimelist.net/animelist/WindWalk?status=1&tag=" style="display:inline-block; width: 940px; height: 300px"></iframe>');
+		console.log("Iframe works!");
 }
