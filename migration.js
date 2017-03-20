@@ -10,7 +10,7 @@ document.getElementsByTagName('head')[0].appendChild(script);
 //determen URL
 const url = window.location.href;
 
-//Begning of figure out where they are
+//Beginning of figure out where they are
 const url1 = /^http:\/\/+kissanime\.ru\/[A-Z]*/g;
 const url2 = /Episode-+[0-9]*\?+id=+[0-9]*$/g;
 
