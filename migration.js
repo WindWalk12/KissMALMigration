@@ -19,6 +19,8 @@ if (url1.test(url) && url2.test(url) ) {
 	document.getElementById('adsIfrme11').remove();
 	document.getElementById('divFloatRight').remove();
 
+	$('#container .bigBarContainer .divCloseBut').remove();
+
 	$('#container .bigBarContainer #centerDivVideo').after('<div id="mal-iframe" style="display: inline-block; width: 920px; height: 300px; right: 12px; top: 10px; position: relative;"> </div)');
 		console.log("Div works!");
 	
