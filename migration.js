@@ -2,8 +2,10 @@
 // @name         KissMALMigration
 // @namespace    https://github.com/WindWalk12/KissMALMigration
 // @version      1.0
-// @description  try to take over the world!
+// @description  Migrate MAL into Kissanime
 // @author       WindWalk
+// @match        http://*/*
+// @grant        none
 // ==/UserScript==
 
 //determen URL
