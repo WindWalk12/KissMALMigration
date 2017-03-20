@@ -1,4 +1,4 @@
-# Kissanime-myanimelist
+# KissMALMigration
 
 WIP
 
